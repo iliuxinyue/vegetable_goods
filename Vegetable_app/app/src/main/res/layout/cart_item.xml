@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:descendantFocusability="blocksDescendants"
+    >
+    <CheckBox
+        android:id="@+id/cart_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="4dp"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:gravity="center"
+        android:minHeight="64dp"
+        android:minWidth="32dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:visibility="visible"
+        />
+    <ImageView
+        android:id="@+id/cart_photo"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@id/cart_check"
+        android:layout_centerVertical="true"
+        android:background="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/cart_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textColor="@color/colorBlack"
+        android:paddingLeft="20dp"
+        android:text="Apple IPad 2018"
+        android:layout_toRightOf="@id/cart_photo"/>
+
+    <TextView
+        android:id="@+id/cart_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:textColor="@color/colorBlackGery"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:text="128G 金色"
+        android:layout_below="@id/cart_name"
+        android:layout_toRightOf="@id/cart_photo"
+        />
+
+    <TextView
+        android:id="@+id/cart_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="@color/colorRed"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:text="2999.00"
+        android:drawableLeft="@drawable/rmb"
+        android:layout_below="@id/cart_type"
+        android:layout_toRightOf="@id/cart_photo"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="10dp"
+        android:layout_gravity="center_vertical"
+        >
+        <TextView
+            android:id="@+id/cart_jian"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:background="#f1f1f1"
+            android:text="一"
+            android:textSize="10sp" />
+            />
+        <TextView
+            android:id="@+id/cart_num"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="1"
+            android:textSize="12sp"/>
+        <TextView
+            android:id="@+id/cart_jia"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:text="十"
+            android:background="#f1f1f1"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+</RelativeLayout>

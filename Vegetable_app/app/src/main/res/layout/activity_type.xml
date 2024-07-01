@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:background="#ffffff"
+    android:orientation="vertical">
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:background="@drawable/edit_circle_shape_one"
+                    android:gravity="center"
+                    android:hint="搜索"
+                    android:textSize="12dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="90dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/t1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="-8dp"
+                            android:layout_weight="1"
+                            android:background="#fff"
+                            android:drawableTop="@drawable/c1"
+                            android:text="新鲜蔬菜"
+                            android:textColor="#999999" />
+
+                        <Button
+                            android:id="@+id/t2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="-8dp"
+                            android:layout_weight="1"
+                            android:background="#fff"
+                            android:drawableTop="@drawable/c2"
+                            android:text="时令水果"
+                            android:textColor="#999999" />
+
+                        <Button
+                            android:id="@+id/t3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="-8dp"
+                            android:layout_weight="1"
+                            android:background="#fff"
+                            android:drawableTop="@drawable/c3"
+                            android:text="海鲜水产"
+                            android:textColor="#999999" />
+
+                        <Button
+                            android:id="@+id/t4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="-8dp"
+                            android:layout_weight="1"
+                            android:background="#fff"
+                            android:drawableTop="@drawable/c4"
+                            android:text="鲜肉禽类"
+                            android:textColor="#999999" />
+
+                        <Button
+                            android:id="@+id/t5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="-8dp"
+                            android:layout_weight="1"
+                            android:background="#fff"
+                            android:drawableTop="@drawable/c5"
+                            android:text="五谷杂粮"
+                            android:textColor="#999999" />
+
+                        <Button
+                            android:id="@+id/t6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="-8dp"
+                            android:layout_weight="1"
+                            android:background="#fff"
+                            android:drawableTop="@drawable/c6"
+                            android:text="调味干货"
+                            android:textColor="#999999" />
+
+                        <Button
+                            android:id="@+id/t7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="-8dp"
+                            android:layout_weight="1"
+                            android:background="#fff"
+                            android:drawableTop="@drawable/c7"
+                            android:text="乳品烘焙"
+                            android:textColor="#999999" />
+
+                        <Button
+                            android:id="@+id/t8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="-8dp"
+                            android:layout_weight="1"
+                            android:background="#fff"
+                            android:drawableTop="@drawable/c8"
+                            android:text="方便速食"
+                            android:textColor="#999999" />
+
+                        <Button
+                            android:id="@+id/t9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="-8dp"
+                            android:layout_weight="1"
+                            android:background="#fff"
+                            android:drawableTop="@drawable/c9"
+                            android:text="面食蛋类"
+                            android:textColor="#999999" />
+
+                        <Button
+                            android:id="@+id/t10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="-8dp"
+                            android:layout_weight="1"
+                            android:background="#fff"
+                            android:drawableTop="@drawable/c10"
+                            android:text="休闲乳饮"
+                            android:textColor="#999999" />
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/fag2"
+                android:layout_width="match_parent"
+                android:layout_height="700dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

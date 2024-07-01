@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingTop="8dp"
+    android:gravity="left"
+    android:paddingBottom="8dp">
+
+    <ImageView
+        android:id="@+id/t1"
+        android:layout_width="95dp"
+        android:layout_height="70dp" />
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="14dp"
+            android:text="示例"
+            android:paddingTop="5dp"/>
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#72777b"
+            android:textSize="12dp"
+            android:text="顺丰发货"
+            android:paddingTop="5dp"/>
+        <!--<TextView-->
+        <!--android:id="@+id/goods_item_shop"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="12sp"-->
+        <!--android:textColor="@color/colorBlackGery"-->
+        <!--android:paddingTop="0dp"-->
+        <!--android:text="Apple产品"-->
+        <!--android:layout_below="@id/goods_item_sales"-->
+        <!--android:layout_toRightOf="@id/goods_item_photo"-->
+        <!--/>-->
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ef4136"
+            android:textSize="16dp"
+            android:text="价格" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp">
+        <ImageView
+            android:id="@+id/goods_item_buy"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/z2"
+            android:divider="#000"/>
+    </LinearLayout>
+
+</LinearLayout>

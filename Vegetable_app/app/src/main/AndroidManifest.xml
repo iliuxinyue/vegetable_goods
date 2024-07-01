@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yuanann.vegetable_app">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="良品优鲜"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Mybanner">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Bander" />
+        <activity android:name=".Login" />
+        <activity android:name=".Register" />
+        <activity android:name=".Loading" />
+        <activity android:name=".Home" />
+        <activity android:name=".Search" />
+        <activity android:name=".Order" />
+        <!--<activity android:name=".Index" />-->
+        <!--<activity android:name=".Type" />-->
+        <!--<activity android:name=".Vary" />-->
+        <!--<activity android:name=".Goodss" />-->
+        <!--<activity android:name=".Mine" />-->
+        <!--<activity android:name=".Ty_one" />-->
+        <!--<activity android:name=".Ty_two" />-->
+        <!--<activity android:name=".Index_b1" />-->
+        <!--<activity android:name=".Index_b2" />-->
+        <activity android:name=".Index_a1" />
+        <activity android:name=".Mygoods" />
+        <activity android:name=".Mygoods0" />
+        <activity android:name=".Mygoods1" />
+        <activity android:name=".Mygoods2" />
+        <activity android:name=".Mygoods3" />
+        <activity android:name=".Mygoods4" />
+        <activity android:name=".Myfind" />
+        <activity android:name=".cart.DingdanActivity" />
+        <activity android:name=".cart.SuccessActivity" />
+        <activity android:name=".Pay" >
+        </activity>
+    </application>
+
+</manifest>

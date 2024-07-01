@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="5dp"
+    android:paddingLeft="5dp">
+
+    <RelativeLayout
+        android:id="@+id/type_RL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/frameLayout_type">
+        <!--<GridView-->
+            <!--android:id="@+id/gridview_jd_r1"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:numColumns="1"></GridView>-->
+        <ListView
+            android:id="@+id/lv_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/rg_type"
+            android:dividerHeight="0.3px"
+            android:divider="#d3d7d4" />
+            <!--android:layout_below="@id/gridview_jd_r1"-->
+
+    </RelativeLayout>
+</LinearLayout>

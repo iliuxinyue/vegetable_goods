@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/rg_type"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="#f9f9f9"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rb_commf1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:width="60dp"
+                android:height="40dp"
+                android:background="@drawable/type_text_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="全部"
+                android:textSize="13dp" />
+
+            <RadioButton
+                android:id="@+id/rb_commf2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rb_commf1"
+                android:width="60dp"
+                android:height="50dp"
+                android:background="@drawable/type_text_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="推荐"
+                android:textSize="13dp" />
+
+            <RadioButton
+                android:id="@+id/rb_commf3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rb_commf2"
+                android:width="60dp"
+                android:height="50dp"
+                android:background="@drawable/type_text_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="梨子"
+                android:textSize="13dp" />
+
+            <RadioButton
+                android:id="@+id/rb_commf4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rb_commf3"
+                android:width="60dp"
+                android:height="50dp"
+                android:background="@drawable/type_text_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="西瓜"
+                android:textSize="13dp" />
+
+            <RadioButton
+                android:id="@+id/rb_commf5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rb_commf4"
+                android:width="60dp"
+                android:height="50dp"
+                android:background="@drawable/type_text_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="葡萄"
+                android:textSize="13dp" />
+
+            <RadioButton
+                android:id="@+id/rb_commf6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rb_commf5"
+                android:width="60dp"
+                android:height="50dp"
+                android:background="@drawable/type_text_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="香蕉"
+                android:textSize="13dp" />
+        </RadioGroup>
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/frameLayout_type"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/rg_type"
+        android:layout_weight="1"
+        tools:ignore="Suspicious0dp"
+        android:background="#ffffff" />
+
+</LinearLayout>
